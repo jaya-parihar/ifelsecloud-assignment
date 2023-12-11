@@ -1,0 +1,59 @@
+<div class="container">
+  <span class="left-right"
+    ><span class="text-blue heading">Money Statistics</span>
+    <span> <mat-icon class="text-grey">more_horiz</mat-icon></span></span
+  >
+  <div class="ratio">
+    <div class="income-types">
+      <span class="text-grey">Total Income</span>
+      <span class="text-blue amt"
+        ><b>{{ moneyStatistics.total_income.value | currency }}</b></span
+      >
+      <span class="icons"
+        ><span class="icons icon-green"
+          ><mat-icon>show_chart</mat-icon>+25% &nbsp;
+        </span>
+        <span class="text-grey">from last month</span></span
+      >
+    </div>
+    <div class="income-types center-action">
+      <span class="text-grey">Total Expense</span>
+      <span class="text-blue amt"
+        ><b>{{ moneyStatistics.total_expense.value | currency }}</b></span
+      >
+      <span class="icons"
+        ><span class="icons icon-red"
+          ><mat-icon>show_chart</mat-icon>+25% &nbsp;
+        </span>
+        <span class="text-grey">from last month</span></span
+      >
+    </div>
+    <div class="income-types">
+      <span class="text-grey">Total Investment</span>
+      <span class="text-blue amt"
+        ><b>{{ moneyStatistics.total_investment.value | currency }}</b></span
+      >
+      <span class="icons"
+        ><span class="icons icon-yellow"
+          ><mat-icon>show_chart</mat-icon>+25% &nbsp;
+        </span>
+        <span class="text-grey">from last month</span></span
+      >
+    </div>
+  </div>
+
+  <div id="chart">
+    <apx-chart
+      [series]="chartOptions.series"
+      [chart]="chartOptions.chart"
+      [dataLabels]="chartOptions.dataLabels"
+      [plotOptions]="chartOptions.plotOptions"
+      [yaxis]="chartOptions.yaxis"
+      [legend]="chartOptions.legend"
+      [fill]="chartOptions.fill"
+      [stroke]="chartOptions.stroke"
+      [tooltip]="chartOptions.tooltip"
+      [xaxis]="chartOptions.xaxis"
+    ></apx-chart>
+  </div>
+</div>

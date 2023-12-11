@@ -1,0 +1,62 @@
+@use "/src/app/components/shared/colors.scss";
+
+#chart {
+  // margin: 2.1875rem auto;
+  width: 100%;
+  height: 21.875rem;
+  margin-right: -25rem;
+}
+
+.container {
+  margin: 0.75rem;
+  padding: 0.75rem;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+.income-types {
+  display: flex;
+  flex-direction: column;
+  // margin: 1.25rem;
+  width: 33%;
+}
+
+.amt {
+  margin: 1.125rem 0rem;
+  font-size: 1.375rem;
+}
+
+.ratio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2.5rem 0rem;
+}
+
+.icon-green {
+  color: colors.$green !important;
+}
+.icon-red {
+  color: colors.$red !important;
+}
+.icon-yellow {
+  color: colors.$orange !important;
+}
+
+.center-action {
+  border-left: 0.0625rem solid colors.$light-grey;
+  border-right: 0.0625rem solid colors.$light-grey;
+  padding-left: 2rem;
+  margin-right: 2rem;
+}
+.left-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+}

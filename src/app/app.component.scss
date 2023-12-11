@@ -1,0 +1,37 @@
+@use "/src/app/components/shared/colors.scss";
+.item1 {
+  grid-area: header;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  z-index: 9999;
+  border-bottom: 0.0625rem solid #f4f4f5;
+}
+.item2 {
+  grid-area: menu;
+  background-color: colors.$light-grey !important;
+}
+.item3 {
+  grid-area: main;
+  background-color: colors.$white !important;
+  border-radius: 1.125rem;
+}
+.item4 {
+  grid-area: right;
+  background-color: colors.$white !important;
+  border-radius: 1.125rem;
+}
+.item5 {
+  grid-area: footer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "menu header header header header header"
+    "menu main right right right right"
+    "menu footer footer footer footer footer";
+  gap: 0.625rem;
+  //   background-color: #2196f3;
+  padding: 0.625rem;
+}

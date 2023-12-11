@@ -1,0 +1,31 @@
+<div class="container">
+  <span class="container-element">
+    <span class="text-blue heading">Transaction History</span>
+    <span class="options">
+      <span class="option">
+        <!-- <i class="fa fa-search search-icon"></i> -->
+        <mat-icon>search</mat-icon>
+        <input type="text" class="option" placeholder="Search" />
+      </span>
+      <span class="option">
+        <!-- <i class="fa fa-search search-icon"></i> -->
+        <mat-icon class="text-grey">filter_list</mat-icon>
+        <span class="option text-blue">Filter</span>
+      </span>
+      <span class="option">
+        <!-- <i class="fa fa-search search-icon"></i> -->
+        <mat-icon class="text-grey">text_snippet</mat-icon>
+        <span class="option text-blue">Export</span>
+      </span>
+    </span>
+  </span>
+  <ag-grid-angular
+    class="ag-theme-quartz"
+    style="height: 500px"
+    [rowData]="rowData"
+    [columnDefs]="transactionColDef"
+    [tooltipShowDelay]="0"
+    [components]="components"
+  >
+  </ag-grid-angular>
+</div>

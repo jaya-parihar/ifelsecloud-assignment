@@ -1,0 +1,25 @@
+<div class="container">
+  <div>
+    <span class="left-right">
+      <span class="text-blue heading">Total Balance</span>
+      <span><mat-icon class="text-grey">more_horiz</mat-icon></span>
+    </span>
+    <h1 class="text-blue">
+      <b>{{ balance.total_balance | currency }}</b>
+    </h1>
+    <mat-progress-bar
+      mode="determinate"
+      [value]="balance.payment_done_percentage"
+    ></mat-progress-bar>
+    <span class="left-right"
+      ><span class="text-grey">Monthly Payment Limit</span>
+      <span
+        ><span class="text-blue">
+          {{ balance.payment_done_so_far | currency }} </span
+        ><span class="text-grey"
+          >/ {{ balance.monthly_payment_limit | currency }}</span
+        ></span
+      ></span
+    >
+  </div>
+</div>

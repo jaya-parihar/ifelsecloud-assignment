@@ -1,0 +1,161 @@
+@use "/src/app/components/shared/colors.scss";
+
+.b-d {
+  border: 0.125rem dashed colors.$light-grey !important;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+.center {
+  display: flex;
+  border: 0.125rem solid colors.$light-grey;
+  border-radius: 0.5rem;
+  height: 3.5625rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0.75rem;
+  padding: 0.125rem;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-img {
+  height: 100%;
+  width: 100%;
+}
+.icon-center {
+  display: flex;
+  align-items: center;
+  height: 2.8125rem;
+  width: 3.1875rem;
+  border-radius: 0.625rem;
+  justify-content: center;
+  border: 0.0625rem solid colors.$grey;
+  margin-right: 0.75rem;
+}
+.mat-icon {
+  color: colors.$blue !important;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  color: colors.$blue !important;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.625rem;
+}
+
+.section {
+  border-right: 0.125rem solid colors.$light-grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.f-w-6 {
+  font-weight: 600;
+}
+
+.p-a {
+  position: relative;
+  height: 4.6875rem;
+}
+
+.divisions {
+  margin: 1.5rem 0rem;
+}
+
+.f-s-16 {
+  font-size: 1rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  border: 0.125rem solid colors.$light-grey;
+  border-radius: 0.75rem;
+  // align-items: center;
+  height: 100px;
+  margin: 0.75rem;
+  padding: 0.75rem;
+}
+
+.inner-product-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.mt-18 {
+  margin-top: 1.125rem;
+}
+
+.left-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mat-mdc-progress-bar {
+  --mdc-linear-progress-active-indicator-color: navy !important;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+  border: 0.0625rem solid colors.$light-grey;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  margin: 0.75rem;
+}
+.action {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+}
+
+.center-action {
+  border-left: 0.0625rem solid colors.$light-grey;
+  border-right: 0.0625rem solid colors.$light-grey;
+}
+
+.saving-icon {
+  margin-right: 0.75rem;
+}
+
+.card {
+  height: 11.875rem;
+  margin: 1.25rem 0rem;
+  width: 90%;
+  background-color: #f1f1f1;
+  border-radius: 0.5rem;
+}
+
+.my-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 0.625rem;
+}
+
+.card-icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.arrow {
+  border: 0.0625rem solid colors.$light-grey;
+  border-radius: 0.3125rem;
+  margin: 0rem 0.3125rem;
+}

@@ -1,0 +1,28 @@
+@use "/src/app/components/shared/colors.scss";
+
+.container {
+  background-color: colors.$white;
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+  margin: 0.75rem;
+}
+
+.left-right {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.375rem;
+}
+
+.mat-mdc-progress-bar {
+  --mdc-linear-progress-active-indicator-color: colors.$blue !important;
+}
+
+h1 {
+  margin-top: 0.625rem;
+  font-size: 3.125rem;
+  margin: 2.5rem 0rem;
+}
+.left-right {
+  display: flex;
+  justify-content: space-between;
+}

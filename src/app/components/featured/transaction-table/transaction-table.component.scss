@@ -1,0 +1,33 @@
+@use "/src/app/components/shared/colors.scss";
+.container {
+  margin: 1.25rem;
+}
+
+.option {
+  background-color: colors.$light-grey;
+  border: none;
+  padding: 0.5rem;
+  height: 1.25rem;
+  border-radius: 0.5rem;
+  margin: 0.3125rem;
+  display: flex;
+  align-items: center;
+}
+.options {
+  display: flex;
+  flex-direction: row;
+}
+.search-icon {
+  color: colors.$grey;
+  font-size: 0.9375rem;
+}
+.mat-icon {
+  color: colors.$grey;
+}
+
+.container-element {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

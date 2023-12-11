@@ -1,0 +1,70 @@
+@use "/src/app/components/shared/colors.scss";
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.mat-toolbar-row,
+.mat-toolbar-single-row {
+  margin-right: 0.6875rem;
+  border-radius: 1.125rem;
+  background-color: white;
+}
+
+.btn-icon {
+  margin-right: 5.3125rem;
+}
+
+.icon {
+  margin: 0rem 0.6875rem;
+}
+
+.icon-border {
+  border: 0.0625rem solid colors.$grey;
+  border-radius: 0.5rem;
+
+  padding: 0.5rem 0.0625rem;
+  margin: 0rem 0.3125rem;
+}
+
+.search-box {
+  border: none;
+  padding: 0.5rem;
+  background-color: colors.$light-grey;
+  height: 1.25rem;
+  border-radius: 1.125rem;
+  margin-right: 0.25rem;
+  width: 26.4375rem;
+}
+.search-icon {
+  color: colors.$grey;
+  font-size: 0.9375rem;
+}
+
+.container {
+  position: relative;
+  height: 3.75rem;
+}
+
+.container-element {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  height: 2.8125rem;
+  width: 3.1875rem;
+  border-radius: 0.625rem;
+  justify-content: center;
+  border: 0.0625rem solid colors.$grey;
+  margin-right: 0.75rem;
+}
+
+.f-w-8 {
+  font-weight: 800;
+}
