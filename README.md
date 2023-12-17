@@ -1,3 +1,9 @@
+# ScreenShots
+![image](https://github.com/jaya-parihar/ifelsecloud-assignment/assets/60315912/77e58d74-d3e0-44f5-a23d-d78e870a24fb)
+
+![image](https://github.com/jaya-parihar/ifelsecloud-assignment/assets/60315912/59a700f9-73a0-4089-82e9-f97253cbbc03)
+
+
 # Dashboard
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
